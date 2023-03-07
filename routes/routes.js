@@ -2,6 +2,7 @@ const express = require("express");
 const { getBootcamps, getBootcamp, createBootcamp, updateBootcamp, deleteBootcamp } = require("../controllers/controllers");
 const router = express.Router();
 
+
 // without id
 router.route("/")
 .get(getBootcamps)
